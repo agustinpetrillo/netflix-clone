@@ -26,14 +26,14 @@ const SignUp = () => {
         <div className="bg-black/60 w-full min-h-screen flex items-center justify-center">
           <div className="bg-black/75 p-16 rounded-xl">
             <h1 className="text-3xl font-bold">Login</h1>
-            <form className="w-full flex flex-col py-4 text-white">
+            <div className="w-full flex flex-col py-4 text-white">
               <button
                 onClick={() => signIn()}
                 className="bg-red-600 p-3 my-6 rounded font-bold"
               >
                 Login with Google
               </button>
-            </form>
+            </div>
           </div>
         </div>
       </div>
