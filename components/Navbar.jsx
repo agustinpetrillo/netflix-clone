@@ -13,7 +13,7 @@ const Navbar = () => {
     if (status === "authenticated") {
       router.push("/FirstSection");
     } else {
-      router.push("/");
+      router.push("/SignUp");
     }
   }, [status]);
 
